@@ -1,356 +1,336 @@
-<div align="center">
+# 🧠 Teen Mental Health & Digital Lifestyle Analysis
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:1877F2,50:00B2FF,100:00D4FF&text=Facebook%20Thailand%20EDA&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+### *A Research-Driven Exploratory Data Analysis on Screen Time, Sleep, and Adolescent Mental Well-Being*
 
-# 📘 Facebook Thailand Data Analysis
+<p align="center">
 
-### 📊 Exploratory Data Analysis • Social Media Analytics • Data Storytelling
+*"Technology connects teenagers to the world—but how does it reshape their mental health?"*
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=900&lines=Exploring+Facebook+User+Behavior...;Finding+Hidden+Patterns+in+Social+Media+Data...;Turning+Raw+Data+into+Business+Insights...;Python+%7C+Pandas+%7C+Matplotlib+%7C+Seaborn"/>
-
-<br>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-4B8BBE?style=for-the-badge)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter)
-
-</div>
+</p>
 
 ---
 
-# 🌟 About This Project
+# 📖 Project Overview
 
-> **Every click, every reaction, every share tells a story.**
+Adolescence is one of the most critical stages of human development. During these years, teenagers experience rapid biological, emotional, cognitive, and social changes. At the same time, smartphones, social media, online gaming, and digital entertainment have become deeply integrated into daily life.
 
-Facebook has become one of the world's largest social media platforms where millions of users interact every day.
+This project explores **how digital lifestyle behaviors influence adolescent mental health** through a comprehensive Exploratory Data Analysis (EDA).
 
-Behind every post lies valuable information that can help businesses understand user behavior, improve marketing strategies, and build stronger customer engagement.
+Rather than focusing only on charts and statistics, this analysis investigates the relationship between **screen exposure, sleep deprivation, age, gender, and psychological well-being**, providing insights that are meaningful from both a data science and public health perspective.
 
-This project performs an in-depth **Exploratory Data Analysis (EDA)** on a Facebook Thailand dataset to uncover meaningful trends, behavioral patterns, engagement metrics, and actionable business insights through data visualization.
-
-Instead of jumping directly into Machine Learning, this project focuses on understanding the dataset first—the most important phase of every successful Data Science project.
+The notebook combines **research-backed context, statistical exploration, visual storytelling, and data-driven interpretation** to understand the hidden patterns behind adolescent stress, anxiety, and depression.
 
 ---
 
-# 🎯 Project Objectives
+# 🎯 Research Question
 
-This project aims to answer important business questions such as:
+> **How does digital consumption differ across demographic groups of adolescents, and to what extent do screen time and reduced sleep contribute to higher levels of stress, anxiety, and depression?**
 
-✅ What patterns exist in Facebook engagement?
-
-✅ Which content receives the highest interaction?
-
-✅ How are users interacting with posts?
-
-✅ Which variables influence engagement?
-
-✅ What hidden relationships exist inside the dataset?
-
-✅ How can businesses improve their Facebook marketing strategy?
+This project seeks to answer that question using data-driven analysis.
 
 ---
 
-# 🚀 EDA Workflow
+# 🌍 Why This Project Matters
 
-```text
-                    Facebook Dataset
-                           │
-                           ▼
-                  Data Understanding
-                           │
-                           ▼
-                   Data Cleaning
-                           │
-                           ▼
-               Missing Value Analysis
-                           │
-                           ▼
-              Exploratory Data Analysis
-                           │
-         ┌─────────────────┴─────────────────┐
-         ▼                                   ▼
- Univariate Analysis                 Multivariate Analysis
-         │                                   │
-         └─────────────────┬─────────────────┘
-                           ▼
-                  Business Insights
-                           │
-                           ▼
-                Strategic Recommendations
-```
+Mental health disorders among teenagers have increased significantly over the last decade.
+
+Modern adolescents spend substantial portions of their day using:
+
+* Smartphones
+* Social Media
+* Video Streaming Platforms
+* Online Gaming
+* Digital Communication Apps
+
+While technology offers educational and social benefits, excessive digital engagement may contribute to:
+
+* Sleep disruption
+* Emotional instability
+* Anxiety
+* Depression
+* Stress
+* Reduced concentration
+* Poor academic performance
+
+Understanding these relationships enables educators, healthcare professionals, parents, and policymakers to make more informed decisions.
 
 ---
 
 # 📂 Dataset Overview
 
-The dataset contains various Facebook-related attributes describing user activity, engagement, interactions, and content performance.
+The dataset contains information describing adolescents' digital behaviors, demographic characteristics, sleep habits, and mental health indicators.
 
-The analysis focuses on discovering meaningful insights hidden inside user engagement patterns rather than simply generating charts.
+The analysis explores relationships between:
 
----
+* Age
+* Gender
+* Daily Screen Time
+* Sleep Duration
+* Stress Levels
+* Anxiety
+* Depression
+* Other lifestyle indicators
 
-# 🔎 Exploratory Data Analysis
-
-## 📌 1. Data Inspection
-
-Before performing any analysis, the dataset is carefully inspected.
-
-The following checks are performed:
-
-✔ Dataset Shape
-
-✔ Dataset Information
-
-✔ Data Types
-
-✔ Missing Values
-
-✔ Duplicate Records
-
-✔ Statistical Summary
-
-✔ Unique Values
-
-Understanding the structure of the dataset ensures high-quality analysis throughout the project.
+Each observation represents an individual adolescent.
 
 ---
 
-# 🧹 2. Data Cleaning
+# 🔬 Research Foundation
 
-High-quality insights require clean data.
+This project is inspired by findings reported by leading healthcare organizations and scientific literature, including:
 
-This notebook performs essential preprocessing tasks including
+* World Health Organization (WHO)
+* Mayo Clinic
+* Columbia Psychiatry
+* Peer-reviewed medical journals
 
-- Handling missing values
-- Removing duplicate observations
-- Correcting inconsistent records
-- Checking feature distributions
-- Preparing data for visualization
+These studies suggest that prolonged screen exposure, particularly during adolescence, may increase psychological distress while simultaneously reducing sleep quality.
 
----
-
-# 📊 3. Univariate Analysis
-
-Every feature is analyzed individually to understand its distribution.
-
-This helps answer questions like
-
-- What values occur most frequently?
-- Are there any outliers?
-- Is the distribution normal or skewed?
-- Which categories dominate the dataset?
-
-Visualizations include
-
-📈 Histograms
-
-📊 Countplots
-
-📦 Boxplots
-
-Pie Charts
-
-Distribution Curves
+The notebook uses these established findings as a scientific foundation before exploring the dataset itself.
 
 ---
 
-# 📈 4. Bivariate Analysis
+# 📊 Exploratory Data Analysis
 
-Relationships between two variables are explored to identify meaningful business patterns.
-
-Examples include
-
-- Engagement comparison
-- User interaction trends
-- Category-wise performance
-- Relationship between numerical variables
-
-These comparisons reveal which factors contribute most to user engagement.
+The analysis follows a structured workflow designed to transform raw observations into meaningful insights.
 
 ---
 
-# 🔥 5. Correlation Analysis
+## 🧹 Data Understanding
 
-Correlation analysis helps identify relationships between numerical variables.
+The project begins by understanding:
 
-The notebook investigates
+* Dataset dimensions
+* Feature descriptions
+* Data types
+* Missing values
+* Duplicate records
+* Statistical summaries
 
-✔ Strong Positive Correlations
-
-✔ Strong Negative Correlations
-
-✔ Weak Relationships
-
-✔ Independent Variables
-
-This step provides valuable insights before building predictive models.
+This stage establishes confidence in the dataset before deeper analysis begins.
 
 ---
 
-# 📊 Visualizations Included
+## 📈 Univariate Analysis
 
-The notebook contains professional visualizations such as
+Each variable is explored independently to understand its characteristics.
 
-📈 Histograms
+Visualizations include:
 
-📊 Bar Charts
+* Histograms
+* Count Plots
+* Distribution Plots
+* Boxplots
 
-📦 Boxplots
+Objectives:
 
-🔥 Correlation Heatmaps
-
-📉 Distribution Plots
-
-📊 Countplots
-
-🥧 Pie Charts
-
-📈 Scatterplots
-
-Each visualization is accompanied by business-oriented interpretations rather than simple observations.
+* Understand distributions
+* Detect skewness
+* Identify unusual observations
+* Measure variability
 
 ---
 
-# 💡 Business Insights
+## 🔗 Bivariate Analysis
 
-The analysis uncovers valuable information about Facebook user behavior.
+Relationships between two variables are examined to identify meaningful trends.
 
-Some key observations include
+Examples include:
 
-📌 User engagement is not equally distributed across all content.
+* Screen Time vs Stress
+* Sleep Duration vs Depression
+* Gender vs Screen Usage
+* Age vs Anxiety
+* Sleep vs Mental Health Indicators
 
-📌 Certain types of posts naturally generate more interaction than others.
-
-📌 High-performing content shares common behavioral characteristics.
-
-📌 Correlation analysis highlights variables that influence engagement.
-
-📌 Understanding interaction patterns enables more effective content strategies.
+This stage reveals how one variable changes with another.
 
 ---
 
-# 📈 Why This Analysis Matters
+## 🌐 Multivariate Analysis
 
-Social media platforms generate enormous amounts of behavioral data every second.
+Human behavior is rarely explained by a single variable.
 
-Exploratory Data Analysis transforms that raw information into actionable insights.
+This project therefore explores multiple variables simultaneously to uncover complex behavioral patterns.
 
-Organizations can use these findings to
+Examples include:
 
-- Improve customer engagement
-- Increase marketing effectiveness
-- Optimize content strategy
-- Understand audience behavior
-- Support business decisions using data
+* Gender + Screen Time + Stress
+* Age + Sleep + Depression
+* Screen Time + Sleep + Anxiety
+* Lifestyle Factors + Mental Health
 
----
-
-# 🛠 Technologies Used
-
-| Technology | Purpose |
-|------------|----------|
-| Python | Programming |
-| Pandas | Data Manipulation |
-| NumPy | Numerical Analysis |
-| Matplotlib | Visualization |
-| Seaborn | Statistical Visualization |
-| Jupyter Notebook | Development Environment |
+These analyses reveal interactions that cannot be observed through simple pairwise comparisons.
 
 ---
 
-# 📂 Project Structure
+# 📉 Statistical Exploration
+
+The notebook computes descriptive statistics including:
+
+* Mean
+* Median
+* Standard Deviation
+* Quartiles
+* Variance
+* Minimum
+* Maximum
+
+These measures help summarize the characteristics of adolescent behavioral patterns.
+
+---
+
+# 📦 Data Cleaning
+
+Before drawing conclusions, the dataset undergoes careful preprocessing.
+
+Cleaning includes:
+
+* Missing value inspection
+* Duplicate removal
+* Data consistency checks
+* Data type validation
+* Feature preparation
+
+Reliable insights begin with reliable data.
+
+---
+
+# 📊 Visualization Strategy
+
+The project uses effective visual storytelling to communicate findings through:
+
+* Histograms
+* Count Plots
+* Boxplots
+* Scatter Plots
+* Heatmaps
+* Correlation Matrices
+* Comparative Charts
+
+Every visualization is accompanied by interpretation rather than simply presenting figures.
+
+---
+
+# 🔥 Correlation Analysis
+
+Correlation analysis investigates relationships among numerical variables.
+
+The objective is to determine:
+
+* Which factors move together
+* Which variables show weak relationships
+* Which indicators may influence adolescent mental health the most
+
+The correlation heatmap provides a high-level overview of the dataset's internal structure.
+
+---
+
+# 💡 Key Analytical Focus
+
+This project investigates several important questions:
+
+* Do teenagers with higher screen time experience greater stress?
+* Does reduced sleep coincide with increased anxiety?
+* Are there observable differences across gender?
+* How do mental health indicators vary across age groups?
+* Which lifestyle variables appear most closely associated with psychological well-being?
+
+---
+
+# 🚀 Project Workflow
 
 ```text
-Facebook-Thailand-EDA/
-
-│
-
-├── facebook_thailand.ipynb
-
-├── README.md
-
-├── dataset.csv
-
-├── images/
-
-└── requirements.txt
+Research Background
+        │
+        ▼
+Problem Definition
+        │
+        ▼
+Dataset Understanding
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Missing Value Analysis
+        │
+        ▼
+Exploratory Data Analysis
+        │
+        ▼
+Statistical Exploration
+        │
+        ▼
+Correlation Analysis
+        │
+        ▼
+Behavioral Pattern Discovery
+        │
+        ▼
+Actionable Insights
 ```
+
+---
+
+# 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
 ---
 
 # 🎯 Skills Demonstrated
 
-✔ Exploratory Data Analysis
-
-✔ Data Cleaning
-
-✔ Data Visualization
-
-✔ Statistical Analysis
-
-✔ Correlation Analysis
-
-✔ Business Intelligence
-
-✔ Storytelling with Data
-
-✔ Insight Generation
-
-✔ Python Programming
+* Exploratory Data Analysis (EDA)
+* Data Cleaning
+* Data Visualization
+* Statistical Analysis
+* Correlation Analysis
+* Behavioral Data Analytics
+* Public Health Analytics
+* Research-Oriented Data Interpretation
+* Python Programming
+* Storytelling with Data
 
 ---
 
-# 📚 Key Learnings
+# 🌟 Project Highlights
 
-Through this project I improved my understanding of
+✅ Research-driven analysis
 
-- Social Media Analytics
-- Customer Behavior Analysis
-- Data Exploration Techniques
-- Feature Relationships
-- Business-Oriented Data Interpretation
-- Effective Data Visualization
-- Insight Generation
-- Analytical Thinking
+✅ Mental health-focused data exploration
 
----
+✅ Statistical interpretation instead of chart-only analysis
 
-# 🚀 Future Enhancements
+✅ Comprehensive visualization
 
-The project can be extended further by implementing
+✅ Correlation-based insights
 
-- Machine Learning Models
-- Engagement Prediction
-- Sentiment Analysis
-- Interactive Power BI Dashboard
-- Tableau Dashboard
-- Streamlit Web Application
-- Customer Segmentation
-- Recommendation System
+✅ Demographic comparisons
+
+✅ Lifestyle behavior analysis
+
+✅ Professional documentation
 
 ---
 
-# ⭐ Conclusion
+# 📌 Conclusion
 
-Exploratory Data Analysis is more than creating charts—it is the process of transforming raw information into meaningful knowledge.
+Teen mental health cannot be explained by a single factor. It emerges from the interaction of digital behavior, biological needs, lifestyle habits, and demographic characteristics. This project demonstrates how exploratory data analysis can transform raw data into meaningful insights by combining statistical reasoning, visualization, and evidence from existing research.
 
-This project demonstrates how social media data can reveal hidden behavioral patterns, engagement trends, and business opportunities through systematic analysis.
-
-By understanding these insights, organizations can make smarter decisions, create better marketing campaigns, and improve audience engagement using data-driven strategies.
+Rather than treating EDA as a collection of plots, this notebook approaches it as an analytical investigation—revealing patterns, generating hypotheses, and laying the foundation for future predictive modeling and evidence-based decision-making in adolescent mental health.
 
 ---
 
-<div align="center">
+## 👨‍💻 Author
 
-# 🌊 Thank You for Visiting
+**Shraddha Bisht**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=0:1877F2,50:00B2FF,100:00D4FF"/>
+*Data Analyst • AI Data Scientist • Python | SQL | Power BI | Machine Learning*
 
-## ⭐ If you found this project helpful, consider giving it a Star!
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=1000&center=true&width=700&lines=Keep+Learning...;Keep+Building...;Keep+Growing...;Happy+Coding!"/>
-
-</div>
+⭐ If this project helped you, consider starring the repository and connecting with me on GitHub or LinkedIn.
